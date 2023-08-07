@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktails Web app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+</head>
+<body>
+  <header>
+    <i class="fas fa-cocktail"><a href="/">Cocktail</a></i>
+    <nav>
+      <ul class="nav-item">
+        <li><a href="#">My favorites<span>0</span></a></li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+        <section class="hero">
+         <div class="container-hero">
+           <h2>Choose your drink</h2>
+           <a href="#Cocktail">Let's go</a>
+         </div>
+        </section>
+        <section id="Cocktail">
+        <div class="container">
+         <div class="buttons">
+          <button id="Ordinary_Drink" class="btn active">Ordinary<br> Drinks</button>
+          <button id="Cocktail" class="btn">Cocktails</button>
+         </div>
+         <div class="card-container"></div>
+        </div>
+        </section>
+    </main>
+    <footer>
+      <div>
+        <h2 class="footer-header">Navigation</h2>
+        <nav>
+          <ul class="footer-item">
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            <li><a href="#">item</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div>
+        <h2 class="footer-header">Social</h2>
+        <nav>
+          <ul class="footer-item">
+            <li><a href="#">social</a></li>
+            <li><a href="#">social</a></li>
+            <li><a href="#">social</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <h2 class="footer-header">Subscribe</h2>
+        <form>
+        <input type="email" placeholder="e-mail" required>
+        <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </footer>
+   <script src="./index.js"></script> 
+</body>
+</html>
